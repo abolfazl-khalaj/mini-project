@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 87vh;
+    background: url(../img/262810.jpg) no-repeat center;
+    background-size: cover ;
+    backdrop-filter: blur(2px);
+
+}
+nav ul{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    padding-right: 8rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+
+
+}
+nav ul li{
+    transition: all 0.4s;
+
+}
+nav ul li:hover{
+  
+}
+header{
+    display: flex;
+    margin-top: 8rem;
+}
+.div__one{
+    color: #fff;
+    width: 40%;
+    margin-left: 8rem;
+    margin-top: 8rem;
+}
+.div__one h1{
+    font-size: 4rem;
+}
+.div__one p{
+    padding: 1.3rem 0;
+
+}
+.div__one button{
+    width: 18%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 9px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.div__one button:hover{
+    transform: scale(1.1);
+    font-size: 11px;
+}
+.div__to{
+    color: #fff;
+    display: flex;
+    transform: translate(10rem, -1rem);
+}
+.div__box{
+    margin: 22px 10px;
+    width: 13rem;
+    height: 15rem;
+    border-radius: 8px;
+    font-size: 11px;
+    padding: 8px;
+    transition: all 0.5s;
+}
+.a{
+    background: url(../img/des.jpg) center no-repeat;
+    background-size: cover;
+}
+.b{
+    background: url(../img/Desert2.jpg) center no-repeat;
+    background-size: cover;
+}
+.c{
+    background: url(../img/Mesr_01.jpg) center no-repeat;
+    background-size: cover;
+}
+.d{
+    background: url(../img/nody-عکس-شب-های-کویر-لوت-1661967609.jpg) center no-repeat;
+    background-size: cover;
+}
+.div__box:hover{
+    transform: scale(1.1);
+    padding:  1rem;
+}
